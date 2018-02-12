@@ -1,0 +1,71 @@
+.customAdmin { padding-left: 20px; padding-right: 50px; padding-top: 30px; }
+.customAdmin h2 { font-size: 23px; font-weight: 400; line-height: 1; margin-bottom: 20px; }
+.customAdmin table.dataTable th { border-color: #e1e1e1; font-size: 14px; font-weight: normal; }
+.customAdmin table.dataTable table.dataTable td, .customAdmin table.dataTable table.dataTable th { padding: 8px 10px; }
+.customAdmin .dataTables_info { display: none; }
+.sorting_1 { text-align: center; }
+.odd, .odd td,table.dataTable tr.odd td.sorting_1 { background-color: #f9f9f9 !important; }
+.even, .even td, table.dataTable tr.even td.sorting_1 { background-color: #fff !important; }
+
+.customAdmin a, .customAdmin button.button-link { text-decoration: none }
+.customAdmin * { word-wrap: break-word }
+table.customAdmin { border: 1px solid #e5e5e5; -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .04); box-shadow: 0 1px 1px rgba(0, 0, 0, .04) }
+table.customAdmin { background: #fff }
+.customAdmin { border-spacing: 0; width: 100%; clear: both; margin: 0 }
+.customAdmin table.dataTable td, .customAdmin table.dataTable th { padding: 8px 10px }
+.customAdmin table.dataTable thead td, .customAdmin table.dataTable thead th { border-bottom: 1px solid #e1e1e1 }
+.customAdmin table.dataTable tfoot td, .customAdmin table.dataTable tfoot th { border-top: 1px solid #e1e1e1; border-bottom: none }
+.customAdmin .no-items td { border-bottom-width: 0 }
+.customAdmin table.dataTable td { vertical-align: top }
+.customAdmin table.dataTable td, .customAdmin table.dataTable td ol, .customAdmin table.dataTable td p, .customAdmin table.dataTable td ul { font-size: 13px; line-height: 1.5em }
+.customAdmin table.dataTable tfoot td, .customAdmin table.dataTable th, .customAdmin table.dataTable thead td { text-align: left; line-height: 1.3em; font-size: 14px }
+.updates-table td input, .customAdmin table.dataTable tfoot td input, .customAdmin table.dataTable th input, .customAdmin table.dataTable thead td input { margin: 0 0 0 8px; padding: 0; vertical-align: text-top }
+.customAdmin .check-column { width: 2.2em; padding: 6px 0 25px; vertical-align: top }
+.customAdmin table.dataTable tbody th.check-column, .customAdmin table.dataTable tfoot td.check-column, .customAdmin table.dataTable thead td.check-column { padding: 11px 0 0 3px }
+.customAdmin table.dataTable tfoot td.check-column, .customAdmin table.dataTable thead td.check-column { padding-top: 4px; vertical-align: middle }
+.no-js .customAdmin table.dataTable tfoot .check-column input, .no-js .customAdmin table.dataTable thead .check-column input { display: none }
+.customAdmin .num { text-align: center }
+.customAdmin table.dataTable th#comments { vertical-align: middle }
+.customAdmin table.dataTable tfoot td, .customAdmin table.dataTable tfoot th, .customAdmin table.dataTable thead td, .customAdmin table.dataTable thead th, .widget .widget-top { line-height: 1.4em }
+.customAdmin table.dataTable tfoot td, .customAdmin table.dataTable th, .customAdmin table.dataTable thead td { font-weight: 400 }
+.customAdmin table.dataTable td, .customAdmin table.dataTable th { color: #555 }
+.customAdmin ol, .customAdmin p, .customAdmin table.dataTable tfoot tr td, .customAdmin table.dataTable tfoot tr th, .customAdmin table.dataTable thead tr td, .customAdmin table.dataTable thead tr th, .customAdmin ul { color: #32373c }
+.customAdmin table.dataTable td p { margin: 2px 0 .8em }
+.customAdmin .column-comment p { margin: .6em 0 }
+.customAdmin .column-comment ul { list-style: outside; margin-left: 2em }
+.postbox table.customAdmin { -webkit-box-shadow: none; box-shadow: none }
+@media screen and (max-width:782px) {
+	.customAdmin table.dataTable tfoot td input[type=checkbox], .customAdmin table.dataTable th input[type=checkbox], .customAdmin table.dataTable thead td input[type=checkbox], input[type=checkbox] { -webkit-appearance: none; padding: 10px }
+	.customAdmin table.dataTable tfoot td input[type=checkbox], .customAdmin table.dataTable th input[type=checkbox], .customAdmin table.dataTable thead td input[type=checkbox] { margin-bottom: 8px }
+	.customAdmin table.dataTable tfoot td input[type=checkbox]:before, .customAdmin table.dataTable th input[type=checkbox]:before, .customAdmin table.dataTable thead td input[type=checkbox]:before, input[type=checkbox]:checked:before { font: 400 30px/1 dashicons; margin: -3px -5px }
+}
+#menu-locations-wrap .customAdmin { width: 60% }
+.customAdmin table.dataTable th.sortable, .customAdmin table.dataTable th.sorted { padding: 0 }
+.plugins-php .customAdmin table.dataTable tfoot td, .plugins-php .customAdmin table.dataTable tfoot th { border-top-style: solid; border-top-width: 1px }
+@media screen and (max-width:782px) {
+	.column-posts, .customAdmin .num { text-align: left }
+	.customAdmin table.dataTable tfoot td.check-column, .customAdmin table.dataTable thead td.check-column { padding-top: 10px }
+	.customAdmin * { word-wrap: normal }
+}
+
+.dataTables_paginate a, .custom-btn { background-color: transparent; border: 1px solid transparent; color: #fff !important; font-family: 'Lato', sans-serif; font-size: 12px; font-weight: 600; height: auto; letter-spacing: .06em; line-height: 1; margin-top: 20px; min-width: 90px; padding: 10px 15px; -webkit-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; transition: all .5s ease-in-out; text-align: center; text-transform: uppercase; width: auto; }
+.dataTables_paginate a + .dataTables_paginate a, .custom-btn + .custom-btn { margin-left: 20px; }
+a.custom-btn { display: inline-block; height: auto; min-width: 140px; width: auto; }
+.custom-btn:focus, .custom-btn:hover, ..dataTables_paginate a:focus, ..dataTables_paginate a:hover { border: 1px solid !important; }
+.dataTables_paginate a, .btn-blue { background-color: #2cc0d9; border-color: #2cc0d9; }
+.btn-darkBlue { background-color: #001d2f; border-color: #001d2f; }
+.btn-transparant { border-color: #1cbcd7; color: #1cbcd7 !important; }
+.dataTables_paginate a:focus, .dataTables_paginate a:hover, .btn-blue:focus, .btn-blue:hover { background-color: transparent; color: #2cc0d9 !important; }
+.btn-darkBlue:focus, .btn-darkBlue:hover { background-color: transparent; color: #001d2f !important; }
+.btn-transparant:focus, .btn-transparant:hover { background-color: #1cbcd7; color: #fff !important; }
+.customAdmin .custom-btn { font-size: 12px; margin-top: 0; min-width: 1px; padding: 5px 15px; }
+.customAdmin table.dataTable td .custom-btn + .custom-btn { margin-left: 5px; }
+.customAdmin table.dataTable tr th:last-child, .customAdmin table.dataTable tr td:last-child { text-align: center; }
+
+#adminmenu, #adminmenuback, #adminmenuwrap, #wpadminbar { background-color: #2cc0d9; }
+#wpadminbar .ab-top-menu>li.menupop.hover>.ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus, #wpadminbar.nojs .ab-top-menu>li.menupop:hover>.ab-item, #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item, #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus, #wpadminbar .menupop .ab-sub-wrapper, #adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu .wp-has-current-submenu.opensub .wp-submenu, #adminmenu .wp-submenu, #adminmenu a.wp-has-current-submenu:focus+.wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu { background-color: #001d2f; }
+#adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top { background-color: #001d2f; }
+.wp-core-ui .button-primary { background: #001d2f; border-color: #001d2f #001d2f #001d2f; color: #fff; -webkit-box-shadow: 0 1px 0 #001d2f; box-shadow: 0 1px 0 #001d2f; text-shadow: 0 -1px 1px #001d2f, 1px 0 1px #001d2f, 0 1px 1px #001d2f, -1px 0 1px #001d2f; }
+.wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover { background: #2cc0d9; border-color: #2cc0d9 #2cc0d9 #2cc0d9; -webkit-box-shadow: 0 1px 0 #2cc0d9; box-shadow: 0 1px 0 #2cc0d9; text-shadow: 0 -1px 1px #2cc0d9, 1px 0 1px #2cc0d9, 0 1px 1px #2cc0d9, -1px 0 1px #2cc0d9; }
+.wp-core-ui .button-primary.button-hero { -webkit-box-shadow: 0 2px 0 #001d2f!important; box-shadow: 0 2px 0 #001d2f!important; }
+.wp-core-ui .button-primary.button-hero:focus, .wp-core-ui .button-primary.button-hero:hover { -webkit-box-shadow: 0 2px 0 #001d2f!important; box-shadow: 0 2px 0 #001d2f!important; }

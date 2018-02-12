@@ -1,0 +1,17 @@
+[18-Aug-2017 05:02:28 UTC] PHP Warning:  require_once(wp-config.php): failed to open stream: No such file or directory in /home/imarkclients/public_html/photorabel/facebook/index.php on line 4
+[18-Aug-2017 05:02:28 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp-config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/imarkclients/public_html/photorabel/facebook/index.php on line 4
+[18-Aug-2017 05:04:27 UTC] PHP Warning:  require_once(wp-config.php): failed to open stream: No such file or directory in /home/imarkclients/public_html/photorabel/facebook/index.php on line 4
+[18-Aug-2017 05:04:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp-config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/imarkclients/public_html/photorabel/facebook/index.php on line 4
+[18-Aug-2017 05:06:56 UTC] PHP Fatal error:  Call to undefined function get_site_url() in /home/imarkclients/public_html/photorabel/facebook/fbConfig.php on line 19
+[18-Aug-2017 10:43:22 Asia/Calcutta] PHP Fatal error:  Call to a member function get_row() on null in /home/imarkclients/public_html/photorabel/wp-content/themes/photorabel-child/functions.php on line 699
+[18-Aug-2017 12:10:05 Asia/Calcutta] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/imarkclients/public_html/photorabel/facebook/index.php on line 52
+[18-Aug-2017 12:10:08 Asia/Calcutta] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/imarkclients/public_html/photorabel/facebook/index.php on line 52
+[18-Aug-2017 12:10:10 Asia/Calcutta] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/imarkclients/public_html/photorabel/facebook/index.php on line 52
+[18-Aug-2017 06:41:44 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/imarkclients/public_html/photorabel/facebook/index.php on line 52
+[10-Sep-2017 16:31:21 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'An unexpected error has occurred. Please retry your request later.' in /home/imarkclients/public_html/photorabel/facebook/facebook-php-sdk/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/imarkclients/public_html/photorabel/facebook/facebook-php-sdk/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/imarkclients/public_html/photorabel/facebook/facebook-php-sdk/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/imarkclients/public_html/photorabel/facebook/facebook-php-sdk/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/imarkclients/public_html/photorabel/facebook/facebook-php-sdk/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 500, Array)
+#4 /home/imarkclients/public_html/photorabel/facebook/facebook-php-sdk/Facebook. in /home/imarkclients/public_html/photorabel/facebook/facebook-php-sdk/Exceptions/FacebookResponseException.php on line 105
